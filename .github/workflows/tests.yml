@@ -13,7 +13,7 @@ jobs:
         uses: Homebrew/actions/setup-homebrew@main
       - name: Tap this repository
         run: brew tap brohan2001/tap "$GITHUB_WORKSPACE" || true
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Install from source
         run: brew install --build-from-source brohan2001/tap/fileshift
       - name: Test
