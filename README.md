@@ -1,18 +1,14 @@
-# Brohan2001 Tap
+# brohan2001/tap
 
-## How do I install these formulae?
+Homebrew formulae by [@brohan2001](https://github.com/brohan2001).
 
-`brew install brohan2001/tap/<formula>`
+## FileShift
 
-Or `brew tap brohan2001/tap` and then `brew install <formula>`.
+[FileShift](https://github.com/brohan2001/FileShift) is a native macOS menu bar utility that keeps your newest download on the clean filename.
 
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "brohan2001/tap"
-brew "<formula>"
+```bash
+brew install brohan2001/tap/fileshift
+brew services start fileshift
 ```
 
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+Homebrew builds FileShift from source on your Mac, so there's no Gatekeeper warning.
